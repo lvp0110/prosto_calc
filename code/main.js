@@ -1,6 +1,6 @@
-let display = document.querySelector(".display");
+let display = document.querySelector(".calc-screen");
 
-let buttons = Array.from(document.querySelectorAll(".button"));
+let buttons = Array.from(document.querySelectorAll(".btn"));
 
 buttons.map((button) => {
   button.addEventListener("click", (e) => {
